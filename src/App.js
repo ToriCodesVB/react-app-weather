@@ -1,13 +1,14 @@
 import React from "react";
 import Weather from "./Weather";
 import "./App.css";
+import "./Weather.css"
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         
-        <h1><Weather defaultCity="Dubai" /></h1>
+        <Weather defaultCity="Dubai" />
         <footer>
           This project was coded by Viktoriia Baburkina and is{" "}
           <a
